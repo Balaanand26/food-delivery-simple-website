@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section-one{
+    background-color: #E53935;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.section-one p {
+    color: white;
+}
+
+.section-three{
+    background-color: #E53935;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.contact-form__table{
+    display: inline-block
+    
+}
+
+.section-three__button{
+    background-color: white;
+    color: #ca0b07;
+    border: solid black 2px;
+    margin-top: 10px;
+    padding: 10px 200px;
+    border-radius: 20px;
+    
+}
+.contact-form__input{
+    padding-right: 50px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.card{
+    width: 200px;
+    border: solid #E53935 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card__button{
+    background-color: black;
+    color: white;
+    border: solid 2px #E53935;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.card__button:hover{
+    background-color: #E53935;
+    color: white;
+    border: solid black 2px;
+}
+.section-two{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 50px;
+}
